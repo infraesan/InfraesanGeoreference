@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([240368.196361, 5104034.782996, 243497.301400, 5106358.229989], map.getSize());
+map.getView().fit([241474.835484, 5090970.230426, 253973.365162, 5100247.302951], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -434,7 +434,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-left-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">Caldes_de_Montbui</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">Capas Georeferenciadas</h2>';
         return titleElement;
     })(),
     target: 'top-left-container'
