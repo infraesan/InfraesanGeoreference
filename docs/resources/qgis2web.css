@@ -404,6 +404,7 @@ td video {
 	margin: unset;
 	display: flex;
 	list-style: none;
+	gap: 8px;
 	} 	
 .bottom-attribution > li {
 	padding-left: 8px !important;
